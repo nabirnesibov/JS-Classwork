@@ -41,6 +41,7 @@ section {
   border: none;
   border-radius: 5px;
   outline: none;
+  text-align: right;
 }
 
 #value {

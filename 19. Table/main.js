@@ -760,8 +760,7 @@ id.addEventListener("click", function () {
 		idArrowDown.style.display="none"
 		idArrowUp.style.display="inline-block"
   }
-
-  drawTable(sortedData);
+    drawTable(sortedData);
 });
 
 

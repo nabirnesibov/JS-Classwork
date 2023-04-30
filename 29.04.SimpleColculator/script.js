@@ -15,34 +15,32 @@ addBtn.addEventListener("click", function () {
    
     value1Input.value==="" || value2Input.value==="" 
     ? alert("Zehmet olmasa her iki value-ya reqem yaz qaqa yoxsa işlemeyecek ")
-    :   resultInput.value = +value1Input.value + +value2Input.value
+    :   resultInput.innerText = +value1Input.value + +value2Input.value
     
 
 });
 subsBtn.addEventListener("click", function () {
     value1Input.value==="" || value2Input.value==="" 
     ? alert("Zehmet olmasa her iki value-ya reqem yaz qaqa yoxsa işlemeyecek ")
-    :   resultInput.value = +value1Input.value - +value2Input.value
-
-
+    :   resultInput.innerText = +value1Input.value - +value2Input.value
 
 });
 mulBtn.addEventListener("click", function () {
     value1Input.value==="" || value2Input.value==="" 
     ? alert("Zehmet olmasa her iki value-ya reqem yaz qaqa yoxsa işlemeyecek ")
-    :   resultInput.value = +value1Input.value * +value2Input.value
+    :   resultInput.innerText = +value1Input.value * +value2Input.value
 });
 
 
 divsBtn.addEventListener("click", function () {
     value1Input.value==="" || value2Input.value==="" 
     ? alert("Zehmet olmasa her iki value-ya reqem yaz qaqa yoxsa işlemeyecek ")
-    :   resultInput.value = +value1Input.value / +value2Input.value
+    :   resultInput.innerText = +value1Input.value / +value2Input.value
 });
 
 
 resetBtn.addEventListener("click", function () {
-  resultInput.value = "";
+  resultInput.innerText = 0;
   value1Input.value = "";
   value2Input.value = "";
 });

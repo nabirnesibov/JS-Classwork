@@ -19,13 +19,20 @@ section{
     border: none;
     border-radius: 20px;
 }
+// #resultdiv{
+//     position: relative;
+//     width: 100%;
+// }
 #result{
+    // position: absolute;
+    // right: 0;
     padding: 10px;
     background-color: black;
     color: white;
     border: none;
     border-radius: 5px;
     outline: none;
+    text-align: right;
 }
 #value{
     display: flex;
