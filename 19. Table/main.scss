@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.container {
+  width: 600px;
+}
+.container input {
+  width: 100%;
+  outline: none;
+  padding: 8px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+}
+#searchInp {
+  width: 100%;
+}
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+table {
+  width: 100%;
+  max-width: 900px;
+  margin: 2px auto;
+  border-collapse: collapse;
+}
+table th {
+  cursor: pointer;
+}
+
